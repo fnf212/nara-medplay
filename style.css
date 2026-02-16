@@ -315,6 +315,16 @@
   right: -80px;
 }
 
+.footer-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-link:hover {
+  opacity: 0.7;
+}
+
+
 /* ===== COMING SOON ===== */
 
 .comingsoon-section {
