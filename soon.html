@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coming Soon - NARA MEDPLAY</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="comingsoon-section">
+  <div class="comingsoon-content text-center">
+    <h1 class="comingsoon-title">COMING SOON</h1>
+    <p class="comingsoon-typing">
+  <span id="typed-text"></span>
+</p>
+
+    <a href="index.html" class="btn btn-warning mt-4">
+      Kembali ke Beranda
+    </a>
+  </div>
+</section>
+<!-- Typed.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+  var typed = new Typed("#typed-text", {
+    strings: [
+      "Sesuatu yang besar sedang kami siapkan...",
+      "Edukasi kesehatan dengan cara berbeda.",
+      "NARA MEDPLAY akan segera hadir."
+    ],
+    typeSpeed: 50,
+    backSpeed: 30,
+    backDelay: 1500,
+    loop: true
+  });
+</script>
+
+</body>
+</html>
